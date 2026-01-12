@@ -5,3 +5,85 @@ font-family: "Work Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+
+.header-section{
+    background-color: #ff8f0e10;
+}
+
+.display-flex {
+    display: flex;
+    
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+
+.nav-item {
+    list-style: none;
+}
+
+
+.nav-item , .nav-link {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar ,bannar {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.brand {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bannar-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bannar-content h1 {
+    font-weight: 700;
+    color: #131313;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.bannar-content p {
+    color: #727272;
+    font-size: 1rem;
+}
+.btn {
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px ;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+
+
+}
+
+.banner-img {
+    width: 100%;
+}
+
+/* responsive style */
+
+@media screen and (max-width:576px) {
+    .navbar , .nav-links {
+        flex-direction: column;
+    }
+    
+}
